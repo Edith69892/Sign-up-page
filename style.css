@@ -63,10 +63,16 @@ body{
     opacity: .6;
 }
 
-
+.user-info{
+    width: 50%;
+}
 
 label{
     color: gray;
     font-size: .5rem;
     opacity: .6;
+}
+
+.input-box{
+    width: 100%;
 }
