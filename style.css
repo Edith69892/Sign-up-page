@@ -1,111 +1,117 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-body{
-    
-    min-height:100vh ;
+body {
+
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: blueviolet;
 }
 
-.container{
+@media (max-width: 600px){
+    .user-info,
+    .signup-btn,
+    #google-btn{
+        width: 100%;
+    }
+}
+
+.container {
     width: 90%;
-    max-width:600px;
+    max-width: 600px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 15px 15px 5px rgba(0, 0, 0, .1);
-    padding: 2rem;
+    padding: 2rem 1.5rem;
 }
 
-.signup{
+.signup {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.signup h2{
+.signup h2 {
     text-align: center;
     color: blueviolet;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 
 }
 
-.subtext{
+.subtext {
     text-align: center;
     color: rgba(43, 7, 7, 0.5);
     margin-bottom: 1rem;
     font-size: 15px;
-    
+
 }
 
 
 
-#google-btn{
+#google-btn {
     background-color: white;
     border-radius: 1.5rem;
     width: 50%;
     padding: 10px;
     border: none;
-    box-shadow: 0px 10px 15px  rgba(0, 0, 0, .1);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .1);
     margin-bottom: 1rem;
 }
 
 
 
-#google-btn a{
+#google-btn a {
     text-decoration: none;
     color: rgb(5, 5, 65);
-    
+
 }
 
 
 
-.user-info{
+.user-info {
     width: 50%;
 }
 
-label{
+label {
     color: rgb(26, 22, 22);
     font-size: .8rem;
     opacity: .6;
 }
 
-.input-box{
-    
-        display: flex;
-        justify-content: center;
-        position: relative;
-        margin-bottom: 1.5rem;
-    
+.input-box {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1.5rem;
+
 }
 
-.input-box input{
+.input-box input {
     width: 100%;
     border: none;
     border-bottom: 2px solid blueviolet;
     outline: none;
 }
 
-.signup-btn{
+.signup-btn {
     background-color: blueviolet;
     color: white;
     border-radius: 1.5rem;
     width: 50%;
     padding: 10px;
     border: none;
-    box-shadow: 0px 10px 15px  rgba(0, 0, 0, .1);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .1);
     margin-bottom: 1.5rem;
 }
 
-.subtext a{
+.subtext a {
     text-decoration: none;
 }
-
-
